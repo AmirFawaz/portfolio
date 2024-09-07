@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 13px ;
+    z-index:1;
+    background-color: #ffffff;
+}
+a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    background: none;
+    padding: 15px;
+    margin-right: 10px;
+    transition: 2s;
+}
+.nav-bar a:hover{
+    box-shadow: 0 0 25px silver;
+    color: #07689f;
+}
+.contaier{
+    display: flex;
+    position: relative;
+}
+.contaier h1{
+    position: absolute;
+    top: 300px;
+    left:25px;
+    letter-spacing: 5px;
+}
+.side-bar{
+    display: flex;
+    margin-top: 65px;
+    margin-left: 35px;
+}
+.photo{
+    width: 50%;
+    height: 500px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+#About{
+    margin-left: 50px;
+    width: 50%;
+}
+#About h1{
+    letter-spacing: 5px;
+}
+#About h6{
+    letter-spacing: 7px;
+    margin-top: 45px;
+    font-size: medium;
+}
+#About p{
+    margin-top: 25px;
+}
+#About p span{
+    background-color: #e6e6e6;
+}
+#Menu{
+    display: flex;
+    margin-top: 180px;
+    padding: 45px;
+}
+.menu{
+    width: 60%;
+    margin: 25px;
+}
+.menu p{
+    color: gray;
+}
+.photo{
+    width: 40%;
+}
+.photo img{
+    opacity: 65%;
+}
+#Contact{
+    margin-top: 65px;
+    margin-left: 25px;
+    padding: 45px;
+}
+#Contact h4{
+    font-size: 18px;
+    color: #607d8b;
+}
+.input-Group{
+    margin-top: 25px;
+}
+input{
+    margin-bottom: 16px;
+    padding: 8px;
+    width: 85%;
+    border: none ;
+    border-bottom: 1px solid #ccc;
+}
+button{
+    margin: 15px;
+    padding: 10px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+}
